@@ -13,34 +13,34 @@ for i in range(0, k):
     if (a == 1 and b == 1):
         print(b)
         print("it's a tie")
-    if (a == 1 and b == 2):
+    elif (a == 1 and b == 2):
         print(b)
         print("computer wins")
         COMPUTER_SCORE+=10
-    if (a == 1 and b == 3):
+    elif (a == 1 and b == 3):
         print(b)
         print("user wins")
         USER_SCORE+=10
-    if (a == 2 and b == 1):
+    elif (a == 2 and b == 1):
         print(b)
         print("user wins")
         USER_SCORE+=10
-    if (a == 2 and b == 2):
+    elif (a == 2 and b == 2):
         print(b)
         print("it's a tie")
-    if (a == 2 and b == 3):
+    elif (a == 2 and b == 3):
         print(b)
         print("computer wins")
         COMPUTER_SCORE+=10
-    if (a == 3 and b == 1):
+    elif (a == 3 and b == 1):
         print(b)
         print("computer wins")
         COMPUTER_SCORE+=10
-    if (a == 3 and b == 2):
+    elif (a == 3 and b == 2):
         print(b)
         print("user wins")
         USER_SCORE+=10
-    if (a == 3 and b == 3):
+    elif (a == 3 and b == 3):
         print(b)
         print("it's a tie")
 
