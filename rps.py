@@ -38,6 +38,7 @@ for i in range(0, k):
         COMPUTER_SCORE+=10
     elif (a == 3 and b == 2):
         print(b)
+        hey
         print("user wins")
         USER_SCORE+=10
     elif (a == 3 and b == 3):
